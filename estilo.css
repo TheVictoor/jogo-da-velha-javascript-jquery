@@ -1,0 +1,101 @@
+
+table{
+	background: #000;
+	color: #fff;
+	margin: auto;
+}
+td {
+	font-size: 70px;
+	border: 1px #fff solid;
+	border-radius: 10px;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}	
+body {
+	background: #111;
+}
+h3 {
+	color: #E0FFFF;
+	text-align: center;
+}
+.az {
+	background: #00f;
+	color: #fff;
+	border-radius: 5px;
+	width: 24%;
+	margin: auto;
+}
+.am {
+	background: #ff0;
+	color: #000;	
+	border-radius: 5px;
+	width: 23%;
+	margin: auto;
+}
+.vm {
+	background: #f00;
+	color: #fff;
+	border-radius: 5px;
+	width: 23%;
+	margin: auto;
+}
+.rs {
+	background: #f0f;
+	color: #000;
+	border-radius: 5px;
+	width: 24%;
+	margin: auto;
+}
+
+.btn-reset {
+	background: #000;
+	color: #E0FFFF;
+	border: solid 1px #fff;
+	width: 100% !important;
+	border-radius: 5px;
+}
+.btn-reset:hover{
+	background: #fff;
+	color: #000;
+	border: solid 2px #fff;
+}
+
+h4 {
+	font-size: 40px;
+	text-align: center;
+}
+.azul {
+	color: #FF4500	;
+}
+.verde{
+	color:#9f9;
+}
+
+#jg1 , #jg2 {
+  	font-size: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    #game table tr td {
+		width: 80px;
+		height: 80px;
+		font-size: 50px;
+    }
+
+    td {
+    	border: solid 1px #fff;
+    	border-radius: 5px;
+    }
+
+    .btn-reset {
+    	margin-left: 25%;
+    	width: 50% !important;
+    	border-radius: 5px;
+    }
+
+    #jg1 , #jg2 {
+    	font-size: 20px;
+    }
+
+}

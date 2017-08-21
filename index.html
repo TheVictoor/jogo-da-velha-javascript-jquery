@@ -1,0 +1,68 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Jogo da Velha</title>
+    <meta name="description" content="jogo da velha">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="animate.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-4 animated flash">
+				<br><br>
+				<button class="btn az">X</button>
+				<button class="btn am">X</button>
+				<button class="btn vm">X</button>
+				<button class="btn rs">X</button><br><br>	
+				<button class="btn az">O</button>
+				<button class="btn am">O</button>
+				<button class="btn vm">O</button>
+				<button class="btn rs">O</button>
+				<br><br>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-4">
+				<h4 id="jg1"> Jogador X = <span id='ptx'>0</span></h4>
+				<h4 id="jg2">Jogador O = <span id='pto'>0</span></h4>
+				<button id='btn-zerar' class="btn btn-reset">Zerar</button>
+			</div>
+			<br>
+			<div class="col-sm-4 animated flipInX" id="game">
+				<table>
+					<tr>
+						<td id='a1'></td>
+						<td id='a2'></td>
+						<td id='a3'></td>
+					</tr>
+					<tr>
+						<td id='b1'></td>
+						<td id='b2'></td>
+						<td id='b3'></td>
+					</tr>
+					<tr>
+						<td id='c1'></td>
+						<td id='c2'></td>
+						<td id='c3'></td>
+					</tr>
+				</table>	
+			</div>
+			<div class="col-sm-4 ">
+				<br>
+				<button id="btnLimpar" class="btn  btn-reset">Reiniciar</button>
+				<h3>Jogador: <span id='jogador'>X</span></h3>
+				<h3 id="vencedor"></h3>
+			</div>
+		</div>
+
+	</div>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src='game.js'></script>
+</body>
+</html>
